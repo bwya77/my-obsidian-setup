@@ -7,6 +7,7 @@ I have been getting quite a bit of people reaching out, asking how to replicate 
 ### Gif Demo
 ![Demo video](/images/main.gif) 
 
+
 ## Getting Started
 ### Step 1: Install Obsidian and Create a Vault
 First things first, you need to install Obsidian. You can download it [here](https://obsidian.md). Once you have it installed, create a new vault. This is where all of your notes will be stored.
@@ -22,6 +23,8 @@ The Cupertino theme is a theme that I have been using for a while now. It is a c
 
 
 ### Step 3: Install the Community Plugins
+**Note**: I have included a folder in the project called `04 Plugins` that contains all the plugins that I use. You can download them from there but they may be out of date. I would reccomend downloading them from the community store in Obsidian or from their GitHub Repos that are linked.
+
 In Obsidian, go to `Settings` -> `Community plugins` and install the following plugins:
 #### 1. Autofit Tabs
 ![Demo video](/images/autofit-demo.gif) 
@@ -133,6 +136,13 @@ This plugin is pending approval to the community store, for now you will have to
 ---
 
 ### Step 4: Install the Custom CSS Snippets
-In Obsidian, go to `Settings` -> `Appearance` -> `CSS snippets` and install the following snippets:
+In Obsidian, go to `Settings` -> `Appearance` -> `CSS snippets` and open your snippets folder. Paste the snippets from this projects `snippets` folder into your snippets folder and enable them. 
 
+
+### Step 5: Settings and Colors
+In Obsidian, go to `Settings` -> `Appearance` and udner `interface` disable `show ribbobn.`
+Next, go to `Settings` -> `Appearance` -> `Accent Color` and set it to 205, 86, 84
+
+### Step 6: Fonts
+Download all the font file in the projects `Fonts` folder and install it on your computer. Restart Obsidian then go to `Settings` -> `Appearance` -> set the interface and text font to `Bear Sans UI` and the monospace font to `IBM Plex Mono`
 
