@@ -71,7 +71,7 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 
 **Custom Settings**: Reference the picture below
 
-![settings](/images/smarttypographysettings.png)
+![settings](/images/smarttypographySettings.png)
 
 
 
