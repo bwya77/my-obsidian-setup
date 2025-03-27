@@ -1,0 +1,37 @@
+/* Obsidian Task Items Color CSS */
+
+/* Style for Tasks folder */
+.tree-item-self.nav-folder-title[data-path="~ Tasks"] {
+    font-weight: bold !important;
+}
+
+/* Style for All Tasks */
+.tree-item-self.nav-file-title[data-path="~ Tasks/1. Inbox.md"] {
+    font-weight: bold !important;
+}
+
+/* Style for Due Today */
+.tree-item-self.nav-file-title[data-path="~ Tasks/2. Today.md"] {
+    font-weight: bold !important;
+}
+
+/* Style for High Priority Tasks */
+.tree-item-self.nav-file-title[data-path="~ Tasks/3. All Tasks.md"] {
+    font-weight: bold !important;
+}
+
+/* Style for Overdue */
+.tree-item-self.nav-file-title[data-path="~ Tasks/8. Upcoming.md"] {
+    font-weight: bold !important;
+}
+
+.tree-item-self.nav-file-title[data-path="~ Tasks/7. Overdue.md"] {
+    font-weight: bold !important;
+}
+
+.tree-item-self.nav-file-title[data-path="~ Tasks/6. High Priority.md"] {
+    font-weight: bold !important;
+}
+.tree-item-self.nav-file-title[data-path="~ Tasks/4. Deadline.md"] {
+    font-weight: bold !important;
+}

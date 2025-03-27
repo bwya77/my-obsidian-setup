@@ -1,0 +1,62 @@
+table {
+  border-collapse: collapse;
+}
+
+/* LIGHT THEME */
+.theme-light table tr {
+  /* Default all rows to white */
+  background-color: white !important;
+}
+
+.theme-light table tr:first-child {
+  /* Header row only */
+  background-color: rgb(243, 245, 247) !important;
+}
+
+.theme-light table tbody tr:first-child {
+  /* Force first row in tbody to be white */
+  background-color: white !important;
+}
+
+.theme-light table thead tr th,
+.theme-light table tr:first-child th {
+  /* Only header cells should be bold */
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.theme-light table tbody tr:nth-child(2n) {
+  /* Even rows in tbody (2nd, 4th, 6th...) */
+  background-color: rgb(243, 245, 247) !important;
+}
+
+/* DARK THEME */
+.theme-dark table tr {
+  /* Default all rows to darker gray */
+  background-color: rgb(67, 69, 73) !important;
+  color: white !important;
+}
+
+.theme-dark table tr:first-child {
+  /* Header row only */
+  background-color: rgb(39, 40, 42) !important;
+}
+
+/* First row in tbody should be white */
+.theme-dark table tbody tr:first-child {
+  background-color: rgb(67, 69, 73) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.theme-dark table thead tr th,
+.theme-dark table tr:first-child th {
+  /* Only header cells should be bold */
+  font-weight: bold;
+}
+
+.theme-dark table tbody tr:nth-child(2n) {
+  /* Even rows in tbody (2nd, 4th, 6th...) */
+  background-color: rgb(48, 49, 51) !important;
+}
+
+/* Text color already set above */

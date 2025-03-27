@@ -1,0 +1,66 @@
+/* Rounded corners for code blocks - Applied to both themes */
+.theme-light,
+.theme-dark {
+
+    /* For fenced code blocks in both edit and preview mode */
+    .cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+        border-top-left-radius: 8px !important;
+        border-top-right-radius: 8px !important;
+    }
+
+    .cm-s-obsidian div.HyperMD-codeblock-end-bg {
+        border-bottom-left-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+
+    /* For preview mode code blocks */
+    .markdown-preview-view pre {
+        border-radius: 8px !important;
+    }
+
+    /* For inline code */
+    .markdown-preview-view code,
+    .cm-s-obsidian span.cm-inline-code {
+        border-radius: 6px !important;
+    }
+
+    /* Custom highlight color for sidedocks */
+    .workspace-split.mod-horizontal.mod-sidedock.mod-left-split,
+    .workspace-split.mod-horizontal.mod-sidedock.mod-right-split {
+        --nav-item-background-active: rgba(126, 154, 213, 0.1);
+    }
+}
+
+/* Light theme specific colors */
+.theme-light {
+
+    /* Code blocks (multi-line code) */
+    .markdown-preview-view pre[class*="language-"],
+    .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+        background-color: rgb(243, 245, 247) !important;
+    }
+
+    /* Inline code */
+    .markdown-preview-view code,
+    .markdown-rendered code,
+    .cm-s-obsidian span.cm-inline-code {
+        background-color: rgb(243, 245, 247) !important;
+    }
+}
+
+/* Dark theme specific colors */
+.theme-dark {
+
+    /* Code blocks (multi-line code) */
+    .markdown-preview-view pre[class*="language-"],
+    .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+        background-color: rgb(39, 40, 42) !important;
+    }
+
+    /* Inline code */
+    .markdown-preview-view code,
+    .markdown-rendered code,
+    .cm-s-obsidian span.cm-inline-code {
+        background-color: rgb(39, 40, 42) !important;
+    }
+}

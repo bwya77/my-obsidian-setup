@@ -1,0 +1,9 @@
+{
+  "autofocusSearchOnOpen": true,
+  "highlightCurrentHeading": true,
+  "minimumHeadings": 1,
+  "resetSearchFieldOnHeadingClick": true,
+  "toggleAutomatically": false,
+  "toggleOnHover": false,
+  "windowLocation": "right"
+}

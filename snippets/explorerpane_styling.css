@@ -1,0 +1,45 @@
+/* Obsidian Compact Sidebar Snippet */
+
+/* Reduce padding for files only */
+.nav-folder-children .nav-file-title {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+/* Keep more padding for folders */
+.nav-folder-children .nav-folder-title {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+/* Reduce spacing between main items in the sidebar */
+.nav-files-container .nav-file-title {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+/* Give more space to top-level folders */
+.nav-files-container .nav-folder-title {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+
+
+/* Optional: Reduce the size of file icons but keep folder icons slightly larger */
+.nav-file-title-content svg {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+/* make the folder text larger */
+.nav-folder-title-content {
+    font-size: 13px !important;
+}
+
+
+/* make the file size text titles smaller */
+.nav-file-title-content {
+    font-size: 12px !important;
+}
+
+

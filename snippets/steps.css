@@ -1,0 +1,60 @@
+.callout[data-callout="step"] {
+    --callout-border-width: 0;
+    --callout-radius: 0;
+    --callout-title-color: var(--text-normal);
+    padding: 0;
+    padding-inline-start: 20px;
+    background: transparent;
+    position: relative;
+    margin: 0;
+
+    & .callout-icon {
+        display: none;
+    }
+
+    & .callout-title {
+        position: absolute;
+    }
+
+    & .callout-title-inner {
+        margin-block-start: var(--p-spacing);
+        background: rgb(205, 86, 84);
+        /* Changed background color for the circle */
+        border: 1px solid var(--indentation-guide-color);
+        margin-inline-start: -16px;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        /* Color of the number inside the circle */
+        z-index: 1;
+        /* Ensure the circle is above the line */
+    }
+
+    & .callout-content {
+        padding-inline-start: 24px;
+        border-inline-start: 1px solid var(--indentation-guide-color);
+        position: relative;
+        margin-top: -1px;
+        /* Helps connect the line smoothly */
+    }
+
+    & .callout-content::before {
+        content: "";
+        position: absolute;
+        top: -16px;
+        /* Adjust to align with the previous step */
+        left: -24px;
+        /* Aligns with the circle */
+        height: calc(100% + 16px);
+        /* Extends the line to connect the steps */
+        width: 1px;
+        background-color: var(--indentation-guide-color);
+        z-index: 0;
+        /* Ensure the line is below the circle */
+    }
+}

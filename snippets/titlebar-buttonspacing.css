@@ -1,0 +1,10 @@
+.view-actions button {
+    margin-right: 8px;
+    /* Adds spacing to the right of each button */
+}
+
+/* To ensure the last button doesn't have unnecessary right margin */
+.view-actions button:last-child {
+    margin-right: 0;
+}
+

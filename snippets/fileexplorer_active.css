@@ -1,0 +1,32 @@
+/* Active styles */
+.nav-file-title.is-active {
+  background-color: rgb(205, 86, 84) !important;
+  color: rgb(243, 245, 247) !important;
+}
+
+.nav-file-title.is-active .iconize-icon svg,
+.nav-file-title.is-active [data-icon] svg {
+  stroke: rgb(243, 245, 247) !important;
+}
+
+/* Hover styles for non-active items */
+.nav-file-title:not(.is-active):hover,
+.nav-folder-title:not(.is-active):hover {
+  background-color: rgb(231, 233, 235) !important;
+}
+
+.nav-file-title:not(.is-active):hover .iconize-icon svg,
+.nav-file-title:not(.is-active):hover [data-icon] svg {
+  stroke: rgb(79, 79, 79) !important;
+}
+
+/* Override hover styles for active items */
+.nav-file-title.is-active:hover {
+  background-color: rgb(205, 86, 84) !important;
+  color: rgb(243, 245, 247) !important;
+}
+
+.nav-file-title.is-active:hover .iconize-icon svg,
+.nav-file-title.is-active:hover [data-icon] svg {
+  stroke: rgb(243, 245, 247) !important;
+}

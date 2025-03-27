@@ -1,0 +1,8 @@
+/* Custom title font size */
+.inline-title {
+    font-size: 1.5em !important;
+    /* Adjust this value to change size */
+
+    /* Optional: adjust line height to match new font size */
+    line-height: 1.0 !important;
+}

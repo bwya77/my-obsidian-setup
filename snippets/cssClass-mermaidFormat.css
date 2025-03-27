@@ -1,0 +1,25 @@
+/* Format Mermaid diagrams to stay within document bounds */
+.format-mermaid .mermaid {
+    width: 100% !important;
+    max-width: 800px !important;
+    /* Adjust this value based on your preferred maximum width */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    overflow-x: visible !important;
+    /* Override the scrollable behavior */
+}
+
+.format-mermaid .mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    min-width: unset !important;
+    /* Override the min-width from the other snippet */
+}
+
+/* Override scrollbar styles when format-mermaid is applied */
+.format-mermaid .mermaid::-webkit-scrollbar,
+.format-mermaid .mermaid::-webkit-scrollbar-thumb {
+    display: none !important;
+    /* Hide scrollbar completely when using format-mermaid */
+}

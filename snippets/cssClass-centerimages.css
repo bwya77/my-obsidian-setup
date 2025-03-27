@@ -1,0 +1,6 @@
+/* Center images on the page */
+.center-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
