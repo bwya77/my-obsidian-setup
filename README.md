@@ -105,10 +105,6 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 ---
 
 #### 8. Collapsible Code Blocks
-This plugin is pending approval to the community store, for now you will have to install it manually. To install it manually, follow these steps:
-1. Go to your Obsidian vault folder and navigate to `.obsidian/plugins`. (this is a hidden folder, you may need to enable hidden folders in your file explorer)
-2. Create a new folder called `collapsible-code-blocks`
-3. Paste the `main.js`, `styles.css` and `manifest.json` file from the Releases in GitHub
 
 ![Collapsible Code Blocks](https://github.com/bwya77/collapsible-code-blocks/raw/main/images/code_collapsed.png)
 
