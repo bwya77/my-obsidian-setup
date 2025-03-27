@@ -27,6 +27,8 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 
 **Custom Settings**: Using all default settings
 
+
+
 #### 2. Dynamic Outline
 
 ![dynamic outline](https://github.com/theopavlove/obsidian-dynamic-outline/raw/master/assets/demo-usage.gif)
@@ -36,6 +38,8 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 **GitHub Link**: [Dynamic Outline](https://github.com/theopavlove/obsidian-dynamic-outline/)
 
 **Custom Settings**: Using all default settings
+
+
 
 #### 3. Editing Toolbar
 
@@ -47,6 +51,8 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 
 **Custom Settings**: I have the editing toolbar theme set to 'glass'
 
+
+
 #### 4. Obsidian Hider
 
 **Description**: Enables you to hide certain parts of the Obsidian UI
@@ -55,6 +61,8 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 
 **Custom Settings**: Hide Properties in Reading View is enabled
 
+
+
 #### 5. Settings Search
 
 **Description**: Adds a search bar to Obsidian.md's settings
@@ -62,6 +70,8 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 **GitHub Link**: [Settings Search](https://github.com/javalent/settings-search)
 
 **Custom Settings**: Using all default settings
+
+
 
 #### 6. Smart Typography
 
