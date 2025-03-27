@@ -10,7 +10,9 @@ First things first, you need to install Obsidian. You can download it [here](htt
 In Obsidian, go to `Settings` -> `Community plugins` and install the following plugins:
 #### Autofit Tabs
 ![Demo video](/images/autofit-demo.gif) 
+
 **Description**: This plugin will automatically resize the width of the tabs to fit the title of the document and the icon.
+
 **GitHub Link**: [Autofit Tabs](https://github.com/bwya77/autofit-tabs)
 
 
