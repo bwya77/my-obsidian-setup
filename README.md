@@ -86,7 +86,48 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 
 ---
 
+#### 7. Style Settings
+
+**Description**: A dynamic user interface for adjusting theme, plugin, and snippet CSS variables within Obsidian
+
+**GitHub Link**: [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+
+**Custom Settings**: I am currently not setting anything with this plugin but its nice to have as as themes and plugins are updated, more settings may appear. 
+
+---
+
+#### 8. Collapsible Code Blocks
+This plugin is pending approval to the community store, for now you will have to install it manually. To install it manually, follow these steps:
+1. Go to your Obsidian vault folder and navigate to `.obsidian/plugins`. (this is a hidden folder, you may need to enable hidden folders in your file explorer)
+2. Create a new folder called `collapsible-code-blocks`
+3. Paste the `main.js`, `styles.css` and `manifest.json` file from the Releases in GitHub
+
+![Collapsible Code Blocks](https://github.com/bwya77/collapsible-code-blocks/raw/main/images/code_collapsed.png)
+
+**Description**: Makes code blocks collapsible in reading and edit view as well as enabling scroll-able code blocks.
+
+**GitHub Link**: [Collapsible Code Blocks](https://github.com/bwya77/collapsible-code-blocks)
+
+**Custom Settings**: Using all default settings
 
 
+---
+
+#### 9. Dynamic Editor Width
+This plugin is pending approval to the community store, for now you will have to install it manually. To install it manually, follow these steps:
+1. Go to your Obsidian vault folder and navigate to `.obsidian/plugins`. (this is a hidden folder, you may need to enable hidden folders in your file explorer)
+2. Create a new folder called `dynamic-editor-width`
+3. Paste the `main.js`, `styles.css` and `manifest.json` file from the Releases in GitHub
+
+![Dynamic Editor Width](https://github.com/bwya77/dynamic-editor-width/blob/main/images/demo.gif)
+
+**GitHub Link**: [Dynamic Editor Width](https://github.com/bwya77/dynamic-editor-width)
+
+**Custom Settings**: Default Editor width: 20
+
+---
+
+### Step 4: Install the Custom CSS Snippets
+In Obsidian, go to `Settings` -> `Appearance` -> `CSS snippets` and install the following snippets:
 
 
