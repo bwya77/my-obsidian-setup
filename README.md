@@ -2,6 +2,9 @@
 ## Overview
 I have been getting quite a bit of people reaching out, asking how to replicate my [Obsidian](https://obsidian.md) setup. I figured I would make a quick guide on how to do it.
 
+![UI](/images/main.png) 
+
+### Gif Demo
 ![Demo video](/images/main.gif) 
 
 ## Getting Started
