@@ -106,7 +106,7 @@ In Obsidian, go to `Settings` -> `Community plugins` and install the following p
 
 #### 8. Collapsible Code Blocks
 
-![Collapsible Code Blocks](https://github.com/bwya77/collapsible-code-blocks/raw/main/images/code_collapsed.png)
+![Collapsible Code Blocks](https://github.com/bwya77/collapsible-code-blocks/blob/main/images/demo.gif?raw=true)
 
 **Description**: Makes code blocks collapsible in reading and edit view as well as enabling scroll-able code blocks.
 
