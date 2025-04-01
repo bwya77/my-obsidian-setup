@@ -140,5 +140,5 @@ In Obsidian, go to `Settings` -> `Appearance` and udner `interface` disable `sho
 Next, go to `Settings` -> `Appearance` -> `Accent Color` and set it to 205, 86, 84
 
 ### Step 6: Fonts
-Download all the font file in the projects `Fonts` folder and install it on your computer. Restart Obsidian then go to `Settings` -> `Appearance` -> set the interface and text font to `Bear Sans UI` and the monospace font to `IBM Plex Mono`
+Download all the font file in the projects `Fonts` folder and install it on your computer. Restart Obsidian then go to `Settings` -> `Appearance` -> set the interface and text font to `Bear Sans UI` and the monospace font to `IBM Plex Mono`.
 
